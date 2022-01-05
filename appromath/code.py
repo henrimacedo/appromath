@@ -22,7 +22,7 @@ class classe_General:
         self.val = val
         pass
     
-    def absolu(x):
+    def absolu(self, x):
         '''
         Fonction retournant la valeur absolue de :param x
         :param x: Valeur négative ou positive
@@ -97,7 +97,7 @@ class classe_General:
         while True:
             difference_de_cauchy = self.fonction_sinusTaylorien(self.val, n) - self.fonction_sinusTaylorien(self.val, n + 1)
             n += 1
-            if (absolu(difference_de_cauchy) < epsilon):
+            if (self.absolu(difference_de_cauchy) < epsilon):
                 break
         return n - 1
 
