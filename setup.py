@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="appromath",
-    version="1.0.2",
+    version="1.0.3",
     author="Ibrahima BAH, Kévin HENTZ, Alexandre RAMDOO, Henri MACEDO GONCALVES",
     author_email="henri.macedo-goncalves@etu.unistra.fr",
     description="Projet d'analyse: Sujet 31",
