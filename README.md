@@ -1,5 +1,3 @@
-# appromath
-
 # Bienvenue sur le guide de Appromath !
 Le but de Appromath est de donner avec la plus grande précision possible la valeur approchée du sinus de tout nombre réel (angle en radians modulo 2pi).
 
