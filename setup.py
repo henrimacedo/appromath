@@ -5,7 +5,7 @@ with open("README.md", "r", encoding="utf-8") as fh:
 
 setuptools.setup(
     name="appromath",
-    version="1.0.1",
+    version="1.0.2",
     author="Ibrahima BAH, Kévin HENTZ, Alexandre RAMDOO, Henri MACEDO GONCALVES",
     author_email="henri.macedo-goncalves@etu.unistra.fr",
     description="Projet d'analyse: Sujet 31",
@@ -20,4 +20,7 @@ setuptools.setup(
         "License :: OSI Approved :: MIT License",
         "Operating System :: OS Independent",
     ],
+    package_dir={"": "appromath"},
+    packages=setuptools.find_packages(where="appromath"),
+    python_requires=">=3.0",
 )

@@ -28,7 +28,7 @@ from appromath import *
 ### 3. Obtention du sinus de pi/2 rad
 ```python
 import math
-valeur = appromath.classe_General(math.sin(pi/2))
+valeur = appromath.classe_General(math.sin(math.pi/2))
 ```
 
 ## DISCLAIMER
